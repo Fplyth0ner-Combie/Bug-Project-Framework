@@ -1,0 +1,18 @@
+<sfjt>inject</sfjt>
+<cs1mc>IP地址</cs1mc>
+<cs2mc>端口</cs2mc>
+<cs3mc>服务</cs3mc>
+<zbz>3</zbz>
+<bz1><cmd>Eclipsedwingtouch-1.0.4 --TargetIP <cs1/> --TargetPort <cs2/> --Protocol <cs3/> --LogFile 1.txt</cmd></bz1>
+<bz2><cmd>cls</cmd></bz2>
+<bz3><cmd>cmd /k type 1.txt</cmd></bz3>
+<bz1fk>SMB detector is ready!!</bz1fk>
+<bz2fk>Target validation is ready!!</bz2fk>
+<bz3fk>NSA is coming!!</bz3fk>
+
+<bz>检测目标出可利用的 MS08-067 EXPLOIT
+
+           上 下 对 应
+端口：     139   445
+服务：     NBT   SMB
+</bz>

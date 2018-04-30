@@ -1,0 +1,44 @@
+<sfjt>inject</sfjt>
+<cs1mc>IP地址</cs1mc>
+<cs2mc>端口</cs2mc>
+<cs3mc>扫描方式</cs3mc>
+<cs4mc>线程</cs4mc>
+
+<zbz>4</zbz>
+<bz1>
+<cmd>del Result.txt</cmd>
+</bz1>
+<bz2>
+<cmd>s.exe <cs3/> <cs1/> <cs2/> <cs4/> /Save</cmd>
+</bz2>
+<bz3>
+<cmd>cls</cmd>
+</bz3>
+<bz4>
+<cmd>cmd /k type Result.txt</cmd>
+</bz4>
+
+<bz1fk>4</bz1fk>
+<bz2fk>3</bz2fk>
+<bz3fk>2</bz3fk>
+<bz4fk>1</bz4fk>
+
+<bz>调用S扫描器，支持任意扫描
+感谢 开发者
+*我也不知道我在说什么hhhhh........
+
+
+扫描方式:     TCP / SYN
+
+地址格式：
+*** Example:  12.12.12.12 12.12.12.254
+              12.12.12.12/24
+              12.12.12.12/16
+
+端口格式:
+*** Example:  80
+              80,81,82
+              1-65535
+
+线程:
+*** Example:  512</bz>

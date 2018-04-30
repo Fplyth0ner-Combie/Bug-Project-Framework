@@ -1,0 +1,12 @@
+<sfjt>inject</sfjt>
+<cs1mc>目标网址</cs1mc>
+<cs2mc>Command</cs2mc>
+<zbz>1</zbz>
+<bz1>
+<cmd>cmd /k run.exe "<cs1/>" "<cs2/>"</cmd>
+</bz1>
+<bz>ST2-055
+
+远程命令执行
+
+目标地址加 http://</bz>

@@ -1,0 +1,11 @@
+<sfjt>inject</sfjt>
+<cs1mc>Ip/Domian</cs1mc>
+<cs2mc>Port</cs2mc>
+<cs3mc>数据库</cs3mc>
+<zbz>1</zbz>
+<bz1><cmd>cmd /k python mysql.py <cs1/> <cs2/> <cs3/> mysql_user.txt mysql_pwd.txt</cmd></bz1>
+<bz>MySQL爆破
+
+tips：先装好相应的库再来玩哈！
+
+happy hack</bz>

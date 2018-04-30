@@ -1,0 +1,15 @@
+<sfjt>inject</sfjt>
+<ljfs>NB</ljfs>
+<sctype>yuan</sctype>
+<cs1mc>IP</cs1mc>
+<cs2mc>用户名</cs2mc>
+<cs3mc>密码</cs3mc>
+<zbz>1</zbz>
+<bz1>
+<cmd>python test.py -t <cs1/> -u <cs2/> -p <cs3/></cmd>
+</bz1>
+<bz>
+TP-LINK WR940N 远程代码执行漏洞
+主动式bind shell
+默认端口：31337，请在buffer配置更改主动式端口和目标IP！
+</bz>

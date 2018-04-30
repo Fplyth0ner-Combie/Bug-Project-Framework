@@ -1,0 +1,14 @@
+<sfjt>inject</sfjt>
+<cs1mc>IP段</cs1mc>
+<cs2mc>线程</cs2mc>
+<zbz>1</zbz>
+<bz1><cmd>cmd /k python ms17-010.py -n <cs1/> -T <cs2/></cmd></bz1>
+<bz1fk>Scan Ready</bz1fk>
+<bz>
+地址栏网段，例如：192.168.1.1/16
+                 10.10.10.1/24
+                 172.16.0.1/8
+
+
+线程，例如：      512
+</bz>

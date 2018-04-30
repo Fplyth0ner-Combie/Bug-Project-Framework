@@ -1,0 +1,10 @@
+<sfjt>inject</sfjt>
+<cs1mc>IP地址</cs1mc>
+<cs2mc>命令</cs2mc>
+<zbz>1</zbz>
+<bz1><cmd>cmd /k OrientDBI.exe <cs1/> <cs2/></cmd></bz1>
+
+<bz>2480端口
+关键词：OrientDB
+
+配合 Shodan for Combie 效果甚佳</bz>

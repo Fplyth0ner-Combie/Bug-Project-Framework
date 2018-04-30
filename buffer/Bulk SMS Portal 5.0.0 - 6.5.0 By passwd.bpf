@@ -1,0 +1,15 @@
+<sfjt>inject</sfjt>
+<cs1mc>Ä¿±êÍøÖ·</cs1mc>
+<zbz>1</zbz>
+<bz1>
+<cmd>cmd /k php -f 1.php url=<cs1/></cmd>
+</bz1>
+<bz># Exploit Title: Sendroid - Bulk SMS Portal, Marketing Script( 5.0.0 - 6.5.0 ) - SQL Injection
+# Google Dork: "welcome to * SMS portal"
+# Date: 22/12/2017
+# Exploit Author: Onwuka Gideon <dongiodmed[@]gmail[.]com>
+Contact: http://twitter.com/@gideon_onwuka
+# Vendor Homepage: http://ynetinteractive.com/
+# Software Buy: https://codecanyon.net/item/sendroid-bulk-sms-portal-marketing-2way-messaging-script-with-mobile-app/14657225
+# Version: 5.0.0 - 6.5.0
+# Tested on: Mac OS</bz>

@@ -1,0 +1,8 @@
+<sfjt>inject</sfjt>
+<zbz>3</zbz>
+<bz1><cmd>dll.exe</cmd></bz1>
+<bz2><cmd>cls</cmd></bz2>
+<bz3><cmd>cmd /k check.exe</cmd></bz3>
+<bz>Eternal dll 生成工具
+
+在输入生成路径时，只填写生成的文件名和扩展名，例如：test.dll 即可！</bz>

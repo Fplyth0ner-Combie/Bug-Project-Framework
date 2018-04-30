@@ -1,0 +1,16 @@
+<sfjt>inject</sfjt>
+<cs1mc>IP地址</cs1mc>
+<cs2mc>端口</cs2mc>
+<cs3mc>Command</cs3mc>
+<zbz>1</zbz>
+<bz1>
+<cmd>python D-Link DIR8xx Routers - Root Remote Code Execution.py "<cs1/>" "<cs2/>" "<cs3/>;"</cmd>
+</bz1>
+<bz>D-Link路由器 远程命令执行漏洞
+
+影响版本：D-Link DIR8xx
+
+注意：EXP中配备了两个版本固件的地址
+默认：# DIR-890L_REVA_FIRMWARE_1.10.B07
+可选：# DIR-890L_REVA_FIRMWARE_PATCH_v1.11B02.BETA01
+请自行修改或重新编写该BPF模块，谢谢您的支持！</bz>

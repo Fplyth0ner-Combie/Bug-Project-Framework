@@ -1,0 +1,17 @@
+<sfjt>inject</sfjt>
+
+<cs1mc>IP地址</cs1mc>
+<cs2mc>端口</cs2mc>
+<cs3mc>结果输出位置</cs3mc>
+
+<zbz>1</zbz>
+<bz1>
+<cmd>cmd /k python ssltest.py <cs1/> -p <cs2/> >"<cs3/>\<cs1/>.txt"</cmd>
+</bz1>
+
+<bz>中文名:心脏出血~
+
+端口正常填443，ssl协议
+
+结果输出位置请填写一个绝对路径！后面不带斜杠
+</bz>

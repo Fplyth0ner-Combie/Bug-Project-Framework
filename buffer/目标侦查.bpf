@@ -1,0 +1,21 @@
+<sfjt>inject</sfjt>
+<cs1mc>侦测目标</cs1mc>
+<zbz>1</zbz>
+<bz1>
+<cmd>cmd /c reconnaissance.exe <cs1/></cmd>
+</bz1>
+<bz>简介：
+
+Reconnaissance，Bug Project Framework V3漏洞利用框架的定制版模块之一，也可单独使用，用来快速侦测目标（IP或Domain）的基本情况。
+
+功能：
+
+1. 查询whois信息；
+2. 查询子域名；
+3. 查询旁站
+4. IP端口扫描；
+5. 生成报告
+
+详细使用帮助：
+https://bbs.ichunqiu.com/forum.php?mod=viewthread&tid=29134&page=1#pid413749
+</bz>

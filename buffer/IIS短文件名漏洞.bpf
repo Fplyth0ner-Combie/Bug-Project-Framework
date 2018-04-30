@@ -1,0 +1,11 @@
+<sfjt>inject</sfjt>
+<cs1mc>目标网址</cs1mc>
+<zbz>1</zbz>
+<bz1>
+<cmd>cmd /k python IIS_shortname_Scanner.py http://<cs1/>/</cmd>
+</bz1>
+<bz>Microsoft IIS在实现上存在文件枚举漏洞，攻击者可利用此漏洞枚举网络服务器根目录中的文件。
+危害：攻击者可以利用“~”字符猜解或遍历服务器中的文件名，或对IIS服务器中的.Net Framework进行拒绝
+服务攻击。
+
+目标网址不带http://和其他斜杠和路径，纯域名</bz>

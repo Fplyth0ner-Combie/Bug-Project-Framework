@@ -1,0 +1,23 @@
+<sfjt>inject</sfjt>
+<cs1mc>IP地址</cs1mc>
+<cs2mc>端口</cs2mc>
+<cs3mc>SSL</cs3mc>
+<cs4mc>CMD</cs4mc>
+<zbz>1</zbz>
+<bz1><cmd>1.exe <cs1/> <cs2/> <cs3/> "<cs4/>"</cmd></bz1>
+
+<bz>提示：JAVA，1099
+
+Options:
+
+***SSL：ture / false
+
+***CMD：You know~~
+
+Target：
+
+VMware vSphere Data Protection 5.x/6.x
+VMware vSphere Data Protection 5.x
+VMware vSphere Data Protection 
+port：1099 默认
+</bz>
