@@ -1,0 +1,14 @@
+<zbz>1</zbz>
+<bz1>
+<name>宝塔弱口令
+用户名：admin
+密码：bt.cn
+存在</name>
+<sfjt>post</sfjt>
+<dzkz>/login</dzkz>
+<demo>username=admin&password=bt.cn</demo>
+<expjc>1</expjc>
+<zjyz></zjyz>
+<xxxz>true</xxxz>
+</bz1>
+<bz>弱口令漏洞检测</bz>

