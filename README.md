@@ -60,6 +60,10 @@ Bug-Project-Framework
           HAPPY HACK ！GOOD LUCK ！
           2018.5.7 BY Fplyth0ner
 
+[+]使用截图
+-------------
+![One](https://github.com/Fplyth0ner-Combie/Bug-Project-Framework/blob/master/images/1.jpg)
+![Two](https://github.com/Fplyth0ner-Combie/Bug-Project-Framework/blob/master/images/2.jpg)
 
 [+]exploit编写：
 ----------------
