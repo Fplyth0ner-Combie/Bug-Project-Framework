@@ -21,6 +21,45 @@ Bug-Project-Framework
 
 		*exploit类主要针对WEB漏洞，poc类主要针对WEB漏洞检测，buffer类调用外置可执行模块。
 
+[+]使用方法：
+------------------
+
+    在BPF根命令行下：
+
+          help                查询帮助
+
+          reload              重新加载框架，此时会刷新全部模块
+
+          search              搜索模块关键词并显示
+                              （ e.g.  search ms17-010 ）
+          searchall           显示所有模块
+
+          use                 使用模块
+                              （ e.g.  use \buffer\ms17-010 Scan.bpf ）
+          set shellcodes      配置默认Shellcode路径
+
+          exit                退出BPF
+
+
+    在BPF模块命令行下：
+
+          help                查询帮助
+
+          show options        查看当前模块参数以及配置情况
+
+          set options         设置当前模块参数以及配置
+
+          set shellcodes      配置默认Shellcode路径
+
+          run                 运行模块
+
+          exit                退出当前模块
+
+    当你输入除上述指定规定参数以外的命令时，BPF框架会将命令识别为系统命令，提交Windows操作系统进行处理
+
+          HAPPY HACK ！GOOD LUCK ！
+          2018.5.7 BY Fplyth0ner
+
 
 [+]exploit编写：
 ----------------
