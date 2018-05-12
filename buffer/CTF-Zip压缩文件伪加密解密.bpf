@@ -1,0 +1,11 @@
+<sfjt>inject</sfjt>
+<cs1mc>ZIP绝对路径</cs1mc>
+
+<zbz>1</zbz>
+    <bz1>
+        <cmd>java -jar ZipCenOp.jar r <cs1/></cmd>
+    </bz1>
+
+<bz>
+CTF，Zip压缩包伪加密解密
+</bz>
