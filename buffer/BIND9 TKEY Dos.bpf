@@ -1,0 +1,21 @@
+<bpf language=2.0>
+<method>inject</method>
+<parameter1>IP</parameter1>
+
+<steps>1</steps>
+<step1>
+<cmd>bind.py <par1/></cmd>
+</step1>
+
+<help>
+CVE-2015-5477
+BIND查询拒绝服务漏洞
+
+一键DOS，目标需开启53端口
+
+受影响版本：
+
+        ISC BIND < 9.9.7-P2
+        ISC BIND < 9.10.2-P3
+
+</help>
