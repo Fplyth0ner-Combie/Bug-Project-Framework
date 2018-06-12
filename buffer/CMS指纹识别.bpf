@@ -1,0 +1,14 @@
+<sfjt>inject</sfjt>
+<cs1mc>网址</cs1mc>
+<cs2mc>线程</cs2mc>
+<zbz>1</zbz>
+<bz1>
+<cmd>cmd /c cms.exe "<cs1/>" "<cs2/>"</cmd>
+</bz1>
+<bz>
+WEB CMS指纹识别模块
+
+网址填写格式
+例如： http://www.baidu.com
+
+</bz>
