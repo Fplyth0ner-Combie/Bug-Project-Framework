@@ -1,0 +1,16 @@
+<sfjt>inject</sfjt>
+<cs1mc>IP</cs1mc>
+<cs2mc>PORT</cs2mc>
+<cs3mc>COMMAND</cs3mc>
+
+<zbz>1</zbz>
+<bz1>
+<cmd>python cs.py "<cs1/>" "<cs2/>" "<cs3/>"</cmd>
+</bz1>
+<bz>
+CVE-2018-10933
+
+libssh RCE
+
+0.7.5, 0.6.*, or lowest then the server is vulnerable£¡
+</bz>
