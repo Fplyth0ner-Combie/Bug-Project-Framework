@@ -1,0 +1,16 @@
+<sfjt>inject</sfjt>
+
+<cs1mc>Host</cs1mc>
+<cs2mc>Username</cs2mc>
+<cs3mc>Password</cs3mc>
+
+<zbz>1</zbz>
+<bz1>
+<cmd>python Vtiger CRM 7.1.0 RCE.py <cs1/> <cs2/> <cs3/></cmd>
+</bz1>
+
+<bz>
+Vtiger CRM 7.1.0 远程命令执行
+http://<Host/>/
+Username和Password为Administrator用户
+</bz>
