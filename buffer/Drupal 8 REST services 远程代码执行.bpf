@@ -1,0 +1,17 @@
+<sfjt>inject</sfjt>
+<cs1mc>Url</cs1mc>
+<cs2mc>Command</cs2mc>
+
+<zbz>1</zbz>
+<bz1>
+<cmd>python 46459.py <cs1/> "<cs2/>"</cmd>
+</bz1>
+
+<bz>
+CVE-2019-6340 Drupal REST services RCE
+Range: <= 8.6.9 
+
+Usge:
+   Url: http://127.0.0.1/
+   Command: whoami
+</bz>
