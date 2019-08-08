@@ -1,0 +1,11 @@
+<sfjt>inject</sfjt>
+<cs1mc>IP地址</cs1mc>
+<cs2mc>端口</cs2mc>
+<zbz>4</zbz>
+<bz1><cmd>Doublepulsar-1.3.1.exe --TargetIp <cs1/> --TargetPort <cs2/> --Function Uninstall --NetworkTimeout 60</cmd></bz1>
+<bz2><cmd>Doublepulsar-1.3.1.exe --TargetIp <cs1/> --TargetPort <cs2/> --Function Uninstall --NetworkTimeout 60</cmd></bz2>
+<bz3><cmd>Doublepulsar-1.3.1.exe --TargetIp <cs1/> --TargetPort <cs2/> --Function Uninstall --NetworkTimeout 60</cmd></bz3>
+<bz4><cmd>Doublepulsar-1.3.1.exe --TargetIp <cs1/> --TargetPort <cs2/> --Function Uninstall --NetworkTimeout 60</cmd></bz4>
+<bz>*Doublepulsar --脉冲双星*
+[*] 后门卸载
+</bz>

