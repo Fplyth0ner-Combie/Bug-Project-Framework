@@ -1,0 +1,10 @@
+<sfjt>inject</sfjt>
+<cs1mc>Url</cs1mc>
+<cs2mc>Command</cs2mc>
+
+<zbz>1</zbz>
+<bz1>
+<cmd>python "phpstudy backdoor.py" "<cs1/>" "<cs2/>"</cmd>
+</bz1>
+
+<bz>phpstudy backdoor</bz>
